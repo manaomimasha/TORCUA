@@ -27,6 +27,7 @@ body {
 }
 
 
+
 @media (min-width: 768px) {
     .nav-principal {
         justify-content: space-between;
@@ -167,6 +168,15 @@ main {
 }
 
 
+
+@media (max-width: 768px) {
+    
+.logoTexto{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+}
 
 
 
