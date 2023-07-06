@@ -167,13 +167,13 @@ main {
 
 @media (min-width: 768px) {
     .contenedor {
-        max-width: 120rem;
+        max-width: 1200px;
         margin: 0 auto;
     }
 }
 
 .contenido-principal {
-    padding-top: 2rem;
+    padding-top: 50px;
 }
 
 
@@ -185,11 +185,11 @@ main {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 50px;
 }
 
 .galeria img {
-    height: 40rem;
-    width: 40rem;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
 }
