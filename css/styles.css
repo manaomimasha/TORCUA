@@ -5,8 +5,8 @@ html {
 body {
     background-color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
-     margin: 0; 
-     color: white;
+    margin: 0;
+    color: white;
 }
 
 
@@ -45,6 +45,7 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
 @media (max-width: 768px) {
     h1 {
         font-size: 80px;
@@ -55,8 +56,9 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
+
 h2 {
     font-size: 40px;
     font-weight: 300;
@@ -68,7 +70,7 @@ h2 {
 }
 
 @media (max-width: 768px) {
-    
+
     h2 {
         font-size: 30px;
         font-weight: 300;
@@ -113,17 +115,17 @@ a:hover::before {
 main {
 
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 600px;
-  padding: 0;
-  color: rgb(255, 255, 255);
-  margin-bottom: 10px;
-  background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 600px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    background-blend-mode: multiply;
 
 
-/*   
+    /*   
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,7 +138,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    
+
     main {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
         background-size: cover;
@@ -147,38 +149,35 @@ main {
         color: rgb(255, 255, 255);
         margin-bottom: 10px;
         background-blend-mode: multiply;
-      
-    
+
+
     }
 }
 
-.logo{
+.logo {
     width: 100px;
     height: auto;
     text-align: center;
     /* text-align: justify; */
-  
+
 }
 
-.logoTexto{
+.logoTexto {
     display: flex;
     align-items: center;
-   gap: 10px;
-   padding-bottom: 40px;
+    gap: 10px;
+    padding-bottom: 40px;
 }
 
-.links {
-    line-height: 1.5;
-}
 
 @media (min-width: 768px) {
-    
-.logoTexto{
-    display: flex;
-    align-items: center;
-   gap: 10px;
-   padding: 0;
-}
+
+    .logoTexto {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
 }
 
 
@@ -193,6 +192,7 @@ main {
 
 .contenedor {
     margin: 20px;
+    line-height: 1.5;
 }
 
 .contenido-principal {
@@ -228,6 +228,3 @@ main {
         gap: 50px;
     }
 }
-
-
-
