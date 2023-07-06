@@ -169,7 +169,7 @@ main {
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     
 .logoTexto{
     display: flex;
