@@ -26,12 +26,6 @@ body {
 
 }
 
-.logo-a{
-    padding-bottom: 50px;
-}
-
-
-
 
 @media (min-width: 768px) {
     .nav-principal {
@@ -39,11 +33,6 @@ body {
         flex-direction: row;
         padding: 10px 50px 10px 30px;
     }
-    
-.logo-a{
-    padding-bottom: 0;
-}
-
 }
 
 h1 {
@@ -174,8 +163,12 @@ main {
     display: flex;
     align-items: center;
    gap: 10px;
-   padding-bottom: 30px;
+   padding-bottom: 100px;
 }
+
+
+
+
 
 
 @media (min-width: 768px) {
