@@ -246,7 +246,7 @@ main {
 
 
 .icons-social i {
-    font-size: 3em;
+    font-size: 50px;
 }
 
 
@@ -266,5 +266,4 @@ main {
   .icons-social a svg path {
     fill: white;
   }
-  
   
