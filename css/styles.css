@@ -204,6 +204,17 @@ main {
     }
 }
 
+
+
+@media (max-width: 768px) {
+    .contenedor {
+       padding-top: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+
 .contenedor {
     margin: 20px;
     line-height: 2;
