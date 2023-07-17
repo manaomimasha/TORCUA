@@ -250,8 +250,8 @@ main {
     width: 500px;
     height: auto;
     display: block;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .icono {
