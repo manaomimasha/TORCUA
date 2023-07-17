@@ -253,6 +253,11 @@ main {
     align-items: center;
 }
 
+.icono {
+    width: 100px;
+    height: auto;
+
+}
 
 .icons-social i {
     padding: 10px;
