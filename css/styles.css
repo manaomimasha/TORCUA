@@ -39,7 +39,7 @@ body {
 h1 {
     font-size: 150px;
     font-weight: 400;
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ h2 {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 @media (max-width: 768px) {
