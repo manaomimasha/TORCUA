@@ -247,8 +247,9 @@ main {
 
 .icons-social i {
     font-size: 50px;
-    width: 30px;
+    width: 500px;
     height: auto;
+    display: block;
     display: flex;
     align-items: center;
 }
