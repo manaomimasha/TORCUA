@@ -70,7 +70,9 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }}
+    }
+}
+
 h2 {
     font-size: 40px;
     font-weight: 300;
@@ -240,3 +242,29 @@ main {
         gap: 50px;
     }
 }
+
+
+
+.icons-social i {
+    font-size: 3em;
+}
+
+
+.icons-social i {
+    padding: 10px;
+}
+
+.icons-social a {
+    text-decoration: none;
+}
+
+
+.icons-social a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .icons-social a svg path {
+    fill: white;
+  }
+  
+  
