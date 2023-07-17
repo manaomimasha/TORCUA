@@ -247,6 +247,8 @@ main {
 
 .icons-social i {
     font-size: 50px;
+    width: 30px;
+    height: auto;
 }
 
 
