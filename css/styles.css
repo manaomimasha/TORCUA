@@ -249,6 +249,8 @@ main {
     font-size: 50px;
     width: 30px;
     height: auto;
+    display: flex;
+    align-items: center;
 }
 
 
