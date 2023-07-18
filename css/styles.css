@@ -125,7 +125,7 @@ main {
     background-position: center top;
     height: 600px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 119);
     margin-bottom: 10px;
     background-blend-mode: multiply;
 
@@ -145,7 +145,7 @@ main {
 @media (max-width: 768px) {
 
     main {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
@@ -159,12 +159,17 @@ main {
     }
 }
 
+/* LOGO */
+
 .logo {
     width: 100px;
     height: auto;
     text-align: center;
-  
-
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .logoTexto {
