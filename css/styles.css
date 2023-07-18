@@ -3,31 +3,22 @@ html {
 }
 
 body {
-    background-color: rgb(5, 5, 5);
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    color: white;
+    color: black;
 }
 
-
-.whatsapp-image {
-    width: 200px;
-    /* Cambia el valor "200px" al tamaño deseado */
-    height: auto;
-    /* Esto mantendrá la proporción original de la imagen */
-}
+/* NAVEGADOR  */
 
 .nav-principal {
     padding: 20px 20px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 
-/* 
 @media (min-width: 768px) {
     .nav-principal {
         justify-content: space-between;
@@ -44,7 +35,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+} 
 
 @media (max-width: 1050px) {
     h1 {
