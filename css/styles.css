@@ -122,6 +122,8 @@ main {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
     /* OSCURA: */
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp); */
+    /* oscura que me encanta  COMO QUEDA:
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -132,7 +134,8 @@ main {
     /* background-blend-mode: multiply; */
 }
 
-/* LA QUE ANDA BIEN: =) 
+
+@media (max-width: 400px) {
 main {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
     background-size: cover;
@@ -142,10 +145,10 @@ main {
     padding: 0;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
-} */
+} }
 
 
-
+/* 
 @media (max-width: 768px) {
 
     main {
@@ -158,10 +161,10 @@ main {
         color: rgb(255, 255, 255);
         margin-bottom: 10px;
         background-blend-mode: multiply;
+    }} */
 
-    }
-}
 
+    
 /* LOGO */
 
 .contenedorL {
