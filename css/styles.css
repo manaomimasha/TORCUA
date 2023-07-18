@@ -162,6 +162,11 @@ main {
 /* LOGO */
 
 
+.contenedorL{
+    width: 500px;
+    margin:auto;
+     }
+
 .contenedorLogo {
     width: 400px;
     height: 120px;
