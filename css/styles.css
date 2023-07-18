@@ -45,9 +45,7 @@ h1 {
         margin: 5px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
+        align-items: center;    }
 }
 
 
@@ -129,6 +127,8 @@ main {
     height: 600px;
     padding: 0;
     color: rgb(99, 0, 46);
+    /* COLOR PARA FONDO OSCURO */
+    /* color: rgb(221, 0, 103); */
     margin-bottom: 10px;
     /* background-blend-mode: multiply; */
 }
@@ -142,7 +142,7 @@ main {
         background-position: center top;
         height: 400px;
         padding: 0;
-        color: rgb(255, 255, 255);
+        color: rgb(99, 0, 46);
         margin-bottom: 10px;
     }
 }
