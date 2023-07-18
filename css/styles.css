@@ -161,11 +161,12 @@ main {
 
 /* LOGO */
 
-
 .contenedorL{
     width: 500px;
-    margin:auto;
-     }
+    margin:auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;     }
 
 .contenedorLogo {
     width: 400px;
