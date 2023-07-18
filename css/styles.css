@@ -35,7 +35,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+}
 
 @media (max-width: 1050px) {
     h1 {
@@ -118,29 +118,18 @@ a:hover::before {
 
 
 main {
-    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp); */
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
+    /* CLARITA: */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
+    /* OSCURA: */
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     height: 600px;
     padding: 0;
-    color: rgb(255, 0, 119);
+    color: rgb(99, 0, 46);
     margin-bottom: 10px;
     background-blend-mode: multiply;
-
-
-    /*   
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 600px;
-    padding: 0;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px; */
-
 }
 
 @media (max-width: 768px) {
@@ -161,12 +150,13 @@ main {
 
 /* LOGO */
 
-.contenedorL{
+.contenedorL {
     width: 500px;
-    margin:auto; 
+    margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;     }
+    align-items: center;
+}
 
 .contenedorLogo {
     width: 400px;
@@ -174,12 +164,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .logoTexto {
+}
+
+.logoTexto {
     width: 100%;
     height: 100%;
     background-image: url('http://drive.google.com/uc?export=view&id=1bBciJYl70hLYJtUxAvQX8rLMrszfbw8i');
-     background-size: calc(100% - 50px);
+    background-size: calc(100% - 50px);
     background-position: center;
     background-size: cover;
     padding: 5px;
@@ -187,9 +178,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; 
-    font-size: 20px; 
-  }
+    color: white;
+    font-size: 20px;
+}
 
 /*   
 .logo {
@@ -235,7 +226,7 @@ main {
 
 @media (max-width: 768px) {
     .contenedor {
-       padding-top: 500px;
+        padding-top: 500px;
         margin: 0 auto;
     }
 }
@@ -283,10 +274,10 @@ main {
 
 
 
-.icons-social  {
+.icons-social {
     font-size: 50px;
- 
-      display: flex;
+
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -294,9 +285,9 @@ main {
 
 .icons-social i {
     font-size: 50px;
-    width: 500px; 
+    width: 500px;
     height: auto;
-      display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -317,9 +308,8 @@ main {
 
 .icons-social a {
     color: rgb(255, 255, 255);
-  }
-  
-  .icons-social a svg path {
+}
+
+.icons-social a svg path {
     fill: white;
-  }
-  
+}
