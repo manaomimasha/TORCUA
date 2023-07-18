@@ -136,16 +136,17 @@ main {
 
 
 @media (max-width: 400px) {
-main {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 400px;
-    padding: 0;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-} }
+    main {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(https://wallpapers.com/images/high/boutique-clothes-on-wire-racks-mirror-fu3pt1du9vz9u4rm.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 400px;
+        padding: 0;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+}
 
 
 /* 
@@ -300,10 +301,17 @@ main {
     margin: auto;
 }
 
+@media (max-width: 768px) {
+    .icons-social {
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 .icons-social i {
     font-size: 50px;
-    width: 500px;
+    width: 50px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -325,7 +333,7 @@ main {
 
 
 .icons-social a {
-    color:  rgb(99, 0, 46);
+    color: rgb(99, 0, 46);
 }
 
 .icons-social a svg path {
