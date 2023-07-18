@@ -261,6 +261,10 @@ main {
 
 /* Galeria  */
 
+.text-center{
+    font-size: 40px;
+    font-weight: 400;
+}
 .galeria {
     list-style: none;
     margin: 0;
@@ -277,13 +281,25 @@ main {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 300px) {
     .galeria {
         list-style: none;
         margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .galeria {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
 }
