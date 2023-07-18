@@ -45,7 +45,8 @@ h1 {
         margin: 5px;
         display: flex;
         flex-direction: column;
-        align-items: center;    }
+        align-items: center;
+    }
 }
 
 
@@ -174,6 +175,18 @@ main {
     align-items: center;
 }
 
+
+@media (max-width: 768px) {
+
+    .contenedorL {
+        width: 500px;
+        margin-left: -110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .contenedorLogo {
     width: 400px;
     height: 120px;
@@ -261,10 +274,11 @@ main {
 
 /* Galeria  */
 
-.text-center{
+.text-center {
     font-size: 40px;
     font-weight: 400;
 }
+
 .galeria {
     list-style: none;
     margin: 0;
