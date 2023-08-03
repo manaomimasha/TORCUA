@@ -366,3 +366,11 @@ main {
 .icons-social a svg path {
     fill: white;
 }
+
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
