@@ -393,7 +393,11 @@ main {
     font-size: 1em;
   }
   .product-card:hover {
-    background-color: lightslategray;
+    /* GRIS-CLARITO:
+    background-color: #949394; */
+/* background-color: lightslategray; */
+    background-color: #3f4040;
+    
     color: #fff;
   }
   .product-card:hover button {
