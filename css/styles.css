@@ -186,12 +186,16 @@ main {
     }
 }
 
+/* viejo
+.contenedorLogo {     width: 400px;    height: 120px;    display: flex;    justify-content: center;    align-items: center; } */
+
+  /* NUEVA */
 .contenedorLogo {
-    width: 400px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 150px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logoTexto {
