@@ -400,5 +400,11 @@ a product{
     .product-card {
       font-size: 0.9em;
     }
-  }
-  
+  }  
+
+.product img{
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+     height: 100%; /* Ajustar la altura al 100% del contenedor */
+     object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
+     background-color: white;
+ }
