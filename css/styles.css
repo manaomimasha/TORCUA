@@ -419,8 +419,8 @@ a product{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 50px; */
-}
+    gap: 50px;
+} */
 
 .galeria {
     list-style: none;
@@ -433,7 +433,7 @@ a product{
     align-content: center;
     flex-direction: row;
   }
-  
+
 .galeria img{
     width: 100%; /* Ajustar el ancho al 100% del contenedor */
      height: 100%; /* Ajustar la altura al 100% del contenedor */
