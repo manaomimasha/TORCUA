@@ -204,8 +204,9 @@ main {
   
     /* background-image: url('http://drive.google.com/uc?export=view&id=1bBciJYl70hLYJtUxAvQX8rLMrszfbw8i'); */
     /* NUEVA: */
-  
-    background-image: url("http://drive.google.com/uc?export=view&id=1_TsP2A8W1ZzTfjpYxJzbGBmy55ENS0mJ");
+    background-image: url("../img/logo.jpg");
+
+    /* background-image:  url("http://drive.google.com/uc?export=view&d=1_TsP2A8W1ZzTfjpYxJzbGBmy55ENS0mJ"); */
   
     background-size: calc(100% - 50px);
     background-position: center;
