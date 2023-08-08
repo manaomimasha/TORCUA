@@ -357,6 +357,7 @@ a product{
   
 .product-card {
     /* max-width: 12em; */
+    max-width: 300px;
     background-color: #fff;
     padding: 1em;
     box-shadow: 0 5px 5px #e1e1e1;
