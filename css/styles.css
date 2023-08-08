@@ -392,6 +392,10 @@ a product{
     background-color: #3f4040;
     
     color: #fff;
+
+    background-color: #aeaeae;
+
+    color: rgba(0, 0, 0, 1.5);
   }
   .product-card:hover button {
     color: #000;
