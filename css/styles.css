@@ -392,6 +392,8 @@ a product{
 .product-card:hover {
     /* GRIS-CLARITO:  background-color: #949394; */ /* background-color: lightslategray; */ /* background-color: #3f4040; */ /* color: #fff; */ /* GRIS */ /* background-color: #aeaeae; */ /* ROSA */
     background-color: #e0e0e0;
+     background-color:  #e4e4e4;
+     
     color: rgba(0, 0, 0, 1.5);
   }
   .product-card:hover button {
