@@ -385,16 +385,13 @@ a product{
     height: 25px;
     font-size: 1em;
   }
-  .product-card:hover {
-    /* GRIS-CLARITO:
-    background-color: #949394; */
-/* background-color: lightslategray; */
-    background-color: #3f4040;
-    
-    color: #fff;
 
-    background-color: #aeaeae;
 
+
+  
+.product-card:hover {
+    /* GRIS-CLARITO:  background-color: #949394; */ /* background-color: lightslategray; */ /* background-color: #3f4040; */ /* color: #fff; */ /* GRIS */ /* background-color: #aeaeae; */ /* ROSA */
+    background-color: #e0e0e0;
     color: rgba(0, 0, 0, 1.5);
   }
   .product-card:hover button {
@@ -405,28 +402,27 @@ a product{
     .product-card {
       font-size: 0.9em;
     }
-  }  
-
-.product img{
+  }
+  
+  .product img {
     width: 100%; /* Ajustar el ancho al 100% del contenedor */
-     height: 100%; /* Ajustar la altura al 100% del contenedor */
-     object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
-     background-color: white;
- }
-
- 
-/* VA A ESTAR EN COLUMNA */
-
-/* .galeria {
+    height: 100%; /* Ajustar la altura al 100% del contenedor */
+    object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
+    background-color: white;
+  }
+  
+  /* VA A ESTAR EN COLUMNA */
+  
+  /* .galeria {
     list-style: none;
     margin: 0;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-} */
-
-.galeria {
+  } */
+  
+  .galeria {
     list-style: none;
     margin: 0;
     padding: 30px;
@@ -437,10 +433,29 @@ a product{
     align-content: center;
     flex-direction: row;
   }
-
-.galeria img{
+  
+  .galeria img {
     width: 100%; /* Ajustar el ancho al 100% del contenedor */
-     height: 100%; /* Ajustar la altura al 100% del contenedor */
-     object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
-     background-color: white;
- }
+    height: 100%; /* Ajustar la altura al 100% del contenedor */
+    object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
+    background-color: white;
+  }
+  
+  .subtitulo {
+    color: black;
+    padding: 1px;
+    margin: 0;
+  }
+  
+  .zoom {
+    transition: transform 0.2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  
+
+
+  

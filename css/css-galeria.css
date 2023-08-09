@@ -433,3 +433,65 @@ div a {
      object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
      background-color: white;
  }
+
+
+ 
+ .product-card:hover {
+    /* GRIS-CLARITO:
+    background-color: #949394; */
+/* background-color: lightslategray; */
+    background-color: #3f4040;
+    
+    color: #fff;
+
+    background-color: #aeaeae;
+
+    color: rgba(0, 0, 0, 1.5);
+  }
+  .product-card:hover button {
+    color: #000;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 576px) {
+    .product-card {
+      font-size: 0.9em;
+    }
+  }  
+
+.product img{
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+     height: 100%; /* Ajustar la altura al 100% del contenedor */
+     object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
+     background-color: white;
+ }
+
+ 
+/* VA A ESTAR EN COLUMNA */
+
+/* .galeria {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} */
+
+.galeria {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Espaciado horizontal entre elementos */
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+  }
+
+.galeria img{
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+     height: 100%; /* Ajustar la altura al 100% del contenedor */
+     object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su relación de aspecto */
+     background-color: white;
+ }
