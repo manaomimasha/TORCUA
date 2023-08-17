@@ -317,3 +317,15 @@ h{
 
 
 /* FIN  ESTILOS DE SLIDE    */
+
+
+/* CONTENIDO  */
+
+
+h{
+    display:flex;
+    align-items:center;
+    padding: 20px;
+    font-size: 30px;
+    
+}
