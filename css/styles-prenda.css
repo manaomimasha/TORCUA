@@ -67,7 +67,7 @@ h1 {
 
         font-size: 50px;
         font-weight: 500;
-        padding: 50px 50px 10px 50px;
+        padding: 5px 50px 10px 50px;
         margin: 5px;
         display: flex;
         flex-direction: column;
@@ -334,5 +334,6 @@ h {
     align-items: center;
     padding: 20px;
     font-size: 30px;
+    gap: 10px;
 
 }
