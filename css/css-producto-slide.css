@@ -692,12 +692,7 @@ a:hover::before {
     cursor: pointer;
 }
 
-#nav-button--prev {
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
 
-}
 
 #nav-button--next {
     top: 50%;
