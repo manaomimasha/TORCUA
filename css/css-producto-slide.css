@@ -58,7 +58,7 @@ div.see-more:last-of-type {
     /* background-color: #03a9dd; */
     background-color: #610b0b;
 }
-}
+
 
 div.see-more a {
     color: #fff;
@@ -694,7 +694,7 @@ a:hover::before {
     cursor: pointer;
 }
 
-
+/* BOTONES SIGUIENTE Y ANTERIOR */
 
 #nav-button--next {
     top: 50%;
