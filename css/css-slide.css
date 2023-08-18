@@ -619,14 +619,25 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    font-weight: 300;
+    font-size: 1rem;
+    text-shadow: 0 0 2px #c53a3a;
+    border-radius: 60px;
+    background: rgb(78 78 78 / 70%);
   }
   
   #nav-button--next {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    font-weight: 300;
+    font-size: 1rem;
+    text-shadow: 0 0 2px #c53a3a;
+    border-radius: 60px;
+    background: rgb(78 78 78 / 70%);
   }
-  
+
+ 
   #nav-button--prev::after,
   #nav-button--next::after {
     content: '';
