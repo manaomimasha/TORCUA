@@ -187,9 +187,9 @@ div.see-more a {
     /* Additional styling for chips and see-more element */
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 900px) {
     .row .col.l4 {
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         left: auto;
         right: auto;
