@@ -55,7 +55,9 @@ div.see-more:last-of-type {
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    background-color: #03a9dd;
+    /* background-color: #03a9dd; */
+    background-color: #610b0b;
+}
 }
 
 div.see-more a {
