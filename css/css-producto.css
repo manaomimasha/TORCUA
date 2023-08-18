@@ -720,6 +720,7 @@
   .titulo {
     font-weight: 100;
     font-size: 40px;
+    padding-top: 0;
   }
   
   .en-oferta {
