@@ -221,7 +221,7 @@
     width: 70px;
     height: 70px;
     font-weight: 600;
-    font-size: 1.45rem;
+    /* font-size: 1.45rem; */
     line-height: 70px;
     margin: 10px;
     position: absolute;
@@ -748,21 +748,7 @@
   }
   
   .brown.darken-3 {
-    background-color: #72000b
-  }
-  
-  
-  
-  .product-card .card .price {
-    width: 70px;
-    height: 70px;
-    font-weight: 600;
-    /* font-size: 1rem; */
-    line-height: 70px;
-    margin: 10px;
-    position: absolute;
-    top: 0;
-    letter-spacing: 0;
+    background-color: #72000b !important;
   }
   
   
