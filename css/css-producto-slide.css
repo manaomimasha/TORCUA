@@ -836,3 +836,23 @@ a:hover::before {
 .brown.darken-3 {
     background-color: #b4005a !important;
 }
+
+
+
+
+/* aver si soluciono el next */
+
+
+#nav-button--next {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* redondo gris */
+    font-weight: 300;
+    font-size: 1rem;
+    text-shadow: 0 0 2px #c53a3a;
+    border-radius: 60px;
+    background: rgb(78 78 78 / 70%);
+}
+
+
